@@ -62,7 +62,6 @@ def train():
     return render_template('train.html')
 
 
-
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     context = {
